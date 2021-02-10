@@ -475,6 +475,11 @@ footer div{
         padding-bottom: 10px;
     }
 }
+@media (max-width: 366px){
+    main{
+        width: 574px;
+    }
+}
 @media (max-width: 578px){
 
 }
