@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delivery Food</title>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/animatecss/3.5.1/animate.min.css">
 </head>
 <body>
     <header>
-        <a href="#" style="color: #000000; margin-right: 12px;">
+        <a href="#" class="animate__animated animate__bounce animate__delay" style="color: #000000; margin-right: 12px;">
             <div class="logo" style="margin-right: 12px;">
                 <img src="img/outline.svg">
                  Delivery <br>Food
@@ -48,7 +50,7 @@
         </section>
         <section class="restaurants">
             <a href="#">
-                <div class="restaurant">
+                <div class="restaurant wow fadeInUp" data-wow-delay="0.4s">
                     <img src="img/pizza plus.jpg">
                     <div class="info">
                         <div class="name_time">
@@ -71,7 +73,7 @@
                 </div>
             </a>
             <a href="index/tanuki.html">
-                <div class="restaurant">
+                <div class="restaurant wow fadeInUp" data-wow-delay="0.4s">
                     <img src="img/tanuki.jpg">
                     <div class="info">
                         <div class="name_time">
@@ -94,7 +96,7 @@
                 </div>
             </a>
             <a href="#">
-                <div class="restaurant">
+                <div class="restaurant wow fadeInUp" data-wow-delay="0.4s">
                     <img src="img/foodband.jpg">
                     <div class="info">
                         <div class="name_time">
@@ -117,7 +119,7 @@
                 </div>
             </a>
             <a href="#">
-                <div class="restaurant">
+                <div class="restaurant wow fadeInUp" data-wow-delay="0.4s">
                     <img src="img/zhadina-pizza.jpg">
                     <div class="info">
                         <div class="name_time">
@@ -140,7 +142,7 @@
                 </div>
             </a>
             <a href="#">
-                <div class="restaurant">
+                <div class="restaurant wow fadeInUp" data-wow-delay="0.4s">
                     <img src="img/tochka edy.jpg">
                     <div class="info">
                         <div class="name_time">
@@ -163,7 +165,7 @@
                 </div>
             </a>
             <a href="#">
-                <div class="restaurant">
+                <div class="restaurant wow fadeInUp" data-wow-delay="0.4s">
                     <img src="img/pizzaBurger.jpg">
                     <div class="info">
                         <div class="name_time">
@@ -209,5 +211,9 @@
             <a href="#"><img src="img/vk.svg"></a>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+  </script>
 </body>
 </html>
